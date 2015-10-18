@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9BFFC1E1BD4648C00D05809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BFFC1D1BD4648C00D05809 /* AppDelegate.swift */; };
+		A9BFFC201BD4648C00D05809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BFFC1F1BD4648C00D05809 /* ViewController.swift */; };
+		A9BFFC221BD4648C00D05809 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BFFC211BD4648C00D05809 /* Document.swift */; };
+		A9BFFC251BD4648C00D05809 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9BFFC231BD4648C00D05809 /* Document.xcdatamodeld */; };
+		A9BFFC271BD4648D00D05809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9BFFC261BD4648D00D05809 /* Assets.xcassets */; };
+		A9BFFC2A1BD4648D00D05809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9BFFC281BD4648D00D05809 /* Main.storyboard */; };
+		A9BFFC351BD4648D00D05809 /* ChromaestroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BFFC341BD4648D00D05809 /* ChromaestroTests.swift */; };
+		A9BFFC401BD4648D00D05809 /* ChromaestroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BFFC3F1BD4648D00D05809 /* ChromaestroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9BFFC311BD4648D00D05809 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9BFFC121BD4648C00D05809 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9BFFC191BD4648C00D05809;
+			remoteInfo = Chromaestro;
+		};
+		A9BFFC3C1BD4648D00D05809 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9BFFC121BD4648C00D05809 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9BFFC191BD4648C00D05809;
+			remoteInfo = Chromaestro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9BFFC1A1BD4648C00D05809 /* Chromaestro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chromaestro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BFFC1D1BD4648C00D05809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9BFFC1F1BD4648C00D05809 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9BFFC211BD4648C00D05809 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		A9BFFC241BD4648C00D05809 /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		A9BFFC261BD4648D00D05809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9BFFC291BD4648D00D05809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9BFFC2B1BD4648D00D05809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9BFFC301BD4648D00D05809 /* ChromaestroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChromaestroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BFFC341BD4648D00D05809 /* ChromaestroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromaestroTests.swift; sourceTree = "<group>"; };
+		A9BFFC361BD4648D00D05809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9BFFC3B1BD4648D00D05809 /* ChromaestroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChromaestroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BFFC3F1BD4648D00D05809 /* ChromaestroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromaestroUITests.swift; sourceTree = "<group>"; };
+		A9BFFC411BD4648D00D05809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9BFFC171BD4648C00D05809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BFFC2D1BD4648D00D05809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BFFC381BD4648D00D05809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9BFFC111BD4648C00D05809 = {
+			isa = PBXGroup;
+			children = (
+				A9BFFC1C1BD4648C00D05809 /* Chromaestro */,
+				A9BFFC331BD4648D00D05809 /* ChromaestroTests */,
+				A9BFFC3E1BD4648D00D05809 /* ChromaestroUITests */,
+				A9BFFC1B1BD4648C00D05809 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9BFFC1B1BD4648C00D05809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9BFFC1A1BD4648C00D05809 /* Chromaestro.app */,
+				A9BFFC301BD4648D00D05809 /* ChromaestroTests.xctest */,
+				A9BFFC3B1BD4648D00D05809 /* ChromaestroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9BFFC1C1BD4648C00D05809 /* Chromaestro */ = {
+			isa = PBXGroup;
+			children = (
+				A9BFFC1D1BD4648C00D05809 /* AppDelegate.swift */,
+				A9BFFC1F1BD4648C00D05809 /* ViewController.swift */,
+				A9BFFC211BD4648C00D05809 /* Document.swift */,
+				A9BFFC261BD4648D00D05809 /* Assets.xcassets */,
+				A9BFFC281BD4648D00D05809 /* Main.storyboard */,
+				A9BFFC2B1BD4648D00D05809 /* Info.plist */,
+				A9BFFC231BD4648C00D05809 /* Document.xcdatamodeld */,
+			);
+			path = Chromaestro;
+			sourceTree = "<group>";
+		};
+		A9BFFC331BD4648D00D05809 /* ChromaestroTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9BFFC341BD4648D00D05809 /* ChromaestroTests.swift */,
+				A9BFFC361BD4648D00D05809 /* Info.plist */,
+			);
+			path = ChromaestroTests;
+			sourceTree = "<group>";
+		};
+		A9BFFC3E1BD4648D00D05809 /* ChromaestroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9BFFC3F1BD4648D00D05809 /* ChromaestroUITests.swift */,
+				A9BFFC411BD4648D00D05809 /* Info.plist */,
+			);
+			path = ChromaestroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9BFFC191BD4648C00D05809 /* Chromaestro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9BFFC441BD4648D00D05809 /* Build configuration list for PBXNativeTarget "Chromaestro" */;
+			buildPhases = (
+				A9BFFC161BD4648C00D05809 /* Sources */,
+				A9BFFC171BD4648C00D05809 /* Frameworks */,
+				A9BFFC181BD4648C00D05809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chromaestro;
+			productName = Chromaestro;
+			productReference = A9BFFC1A1BD4648C00D05809 /* Chromaestro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9BFFC2F1BD4648D00D05809 /* ChromaestroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9BFFC471BD4648D00D05809 /* Build configuration list for PBXNativeTarget "ChromaestroTests" */;
+			buildPhases = (
+				A9BFFC2C1BD4648D00D05809 /* Sources */,
+				A9BFFC2D1BD4648D00D05809 /* Frameworks */,
+				A9BFFC2E1BD4648D00D05809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9BFFC321BD4648D00D05809 /* PBXTargetDependency */,
+			);
+			name = ChromaestroTests;
+			productName = ChromaestroTests;
+			productReference = A9BFFC301BD4648D00D05809 /* ChromaestroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9BFFC3A1BD4648D00D05809 /* ChromaestroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9BFFC4A1BD4648D00D05809 /* Build configuration list for PBXNativeTarget "ChromaestroUITests" */;
+			buildPhases = (
+				A9BFFC371BD4648D00D05809 /* Sources */,
+				A9BFFC381BD4648D00D05809 /* Frameworks */,
+				A9BFFC391BD4648D00D05809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9BFFC3D1BD4648D00D05809 /* PBXTargetDependency */,
+			);
+			name = ChromaestroUITests;
+			productName = ChromaestroUITests;
+			productReference = A9BFFC3B1BD4648D00D05809 /* ChromaestroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9BFFC121BD4648C00D05809 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = BergARTS;
+				TargetAttributes = {
+					A9BFFC191BD4648C00D05809 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A9BFFC2F1BD4648D00D05809 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A9BFFC191BD4648C00D05809;
+					};
+					A9BFFC3A1BD4648D00D05809 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A9BFFC191BD4648C00D05809;
+					};
+				};
+			};
+			buildConfigurationList = A9BFFC151BD4648C00D05809 /* Build configuration list for PBXProject "Chromaestro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9BFFC111BD4648C00D05809;
+			productRefGroup = A9BFFC1B1BD4648C00D05809 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9BFFC191BD4648C00D05809 /* Chromaestro */,
+				A9BFFC2F1BD4648D00D05809 /* ChromaestroTests */,
+				A9BFFC3A1BD4648D00D05809 /* ChromaestroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9BFFC181BD4648C00D05809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BFFC271BD4648D00D05809 /* Assets.xcassets in Resources */,
+				A9BFFC2A1BD4648D00D05809 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BFFC2E1BD4648D00D05809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BFFC391BD4648D00D05809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9BFFC161BD4648C00D05809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BFFC251BD4648C00D05809 /* Document.xcdatamodeld in Sources */,
+				A9BFFC201BD4648C00D05809 /* ViewController.swift in Sources */,
+				A9BFFC1E1BD4648C00D05809 /* AppDelegate.swift in Sources */,
+				A9BFFC221BD4648C00D05809 /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BFFC2C1BD4648D00D05809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BFFC351BD4648D00D05809 /* ChromaestroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BFFC371BD4648D00D05809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BFFC401BD4648D00D05809 /* ChromaestroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9BFFC321BD4648D00D05809 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9BFFC191BD4648C00D05809 /* Chromaestro */;
+			targetProxy = A9BFFC311BD4648D00D05809 /* PBXContainerItemProxy */;
+		};
+		A9BFFC3D1BD4648D00D05809 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9BFFC191BD4648C00D05809 /* Chromaestro */;
+			targetProxy = A9BFFC3C1BD4648D00D05809 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9BFFC281BD4648D00D05809 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9BFFC291BD4648D00D05809 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9BFFC421BD4648D00D05809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9BFFC431BD4648D00D05809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A9BFFC451BD4648D00D05809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Chromaestro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bergarts.Chromaestro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9BFFC461BD4648D00D05809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Chromaestro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bergarts.Chromaestro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9BFFC481BD4648D00D05809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ChromaestroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bergarts.ChromaestroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chromaestro.app/Contents/MacOS/Chromaestro";
+			};
+			name = Debug;
+		};
+		A9BFFC491BD4648D00D05809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ChromaestroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bergarts.ChromaestroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chromaestro.app/Contents/MacOS/Chromaestro";
+			};
+			name = Release;
+		};
+		A9BFFC4B1BD4648D00D05809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ChromaestroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bergarts.ChromaestroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Chromaestro;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A9BFFC4C1BD4648D00D05809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ChromaestroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bergarts.ChromaestroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Chromaestro;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9BFFC151BD4648C00D05809 /* Build configuration list for PBXProject "Chromaestro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BFFC421BD4648D00D05809 /* Debug */,
+				A9BFFC431BD4648D00D05809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9BFFC441BD4648D00D05809 /* Build configuration list for PBXNativeTarget "Chromaestro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BFFC451BD4648D00D05809 /* Debug */,
+				A9BFFC461BD4648D00D05809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9BFFC471BD4648D00D05809 /* Build configuration list for PBXNativeTarget "ChromaestroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BFFC481BD4648D00D05809 /* Debug */,
+				A9BFFC491BD4648D00D05809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9BFFC4A1BD4648D00D05809 /* Build configuration list for PBXNativeTarget "ChromaestroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BFFC4B1BD4648D00D05809 /* Debug */,
+				A9BFFC4C1BD4648D00D05809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9BFFC231BD4648C00D05809 /* Document.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9BFFC241BD4648C00D05809 /* Document.xcdatamodel */,
+			);
+			currentVersion = A9BFFC241BD4648C00D05809 /* Document.xcdatamodel */;
+			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A9BFFC121BD4648C00D05809 /* Project object */;
+}
